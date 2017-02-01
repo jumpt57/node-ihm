@@ -1,4 +1,4 @@
-angular.module('mindmapApp').run(['$rootScope', '$timeout', '$location', function($rootScope, $timeout, $location){
+angular.module('nodeihm').run(['$rootScope', '$timeout', '$location', function($rootScope, $timeout, $location){
 
     $rootScope.showNavblock = false;
 

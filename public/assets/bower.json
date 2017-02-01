@@ -23,6 +23,7 @@
     "angular-css": "1.0.7",
     "bootstrap": "3.3.6",
     "raphael": "2.1.4",
+    "jquery": "2.2.4",
     "jquery-ui": "1.11.4",
     "ng-breadcrumbs": "0.4.1"
   }

@@ -1,4 +1,4 @@
-angular.module('mindmapApp').directive('ngMindmap', function(){
+angular.module('nodeihm').directive('ngMindmap', function(){
     return {
         restrict: 'E',
         transclude: true,

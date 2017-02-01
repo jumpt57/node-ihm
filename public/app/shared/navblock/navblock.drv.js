@@ -1,4 +1,4 @@
-angular.module('mindmapApp').directive('ngNavblock', function(){
+angular.module('nodeihm').directive('ngNavblock', function(){
     return {
         restrict: 'EA',
         replace: true,

@@ -1,4 +1,4 @@
-angular.module('mindmapApp').directive('ngBreadcrumb', function(){
+angular.module('nodeihm').directive('ngBreadcrumb', function(){
     return {
         restrict: 'E',
         replace: true,

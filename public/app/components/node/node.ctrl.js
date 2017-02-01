@@ -1,4 +1,4 @@
-angular.module('mindmapApp').controller('NodeCtrl', ['$scope', '$css', 'breadcrumbs', function($scope, $css, breadcrumbs) {
+angular.module('nodeihm').controller('NodeCtrl', ['$scope', '$css', 'breadcrumbs', function($scope, $css, breadcrumbs) {
 
     $scope.breadcrumbs = breadcrumbs;
 

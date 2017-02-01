@@ -1,4 +1,4 @@
-angular.module('mindmapApp').config(['$routeProvider', function($routeProvider){
+angular.module('nodeihm').config(['$routeProvider', function($routeProvider){
 
     $routeProvider.when('/', {
         templateUrl: 'app/components/pages/home/home.vw.html',
