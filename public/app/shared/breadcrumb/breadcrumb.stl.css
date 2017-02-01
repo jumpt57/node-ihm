@@ -1,0 +1,7 @@
+.breadcrumb{
+    border-radius: 0px;
+    position: fixed;
+    bottom: 5px;
+    left: 20px;
+    z-index: 200;
+}

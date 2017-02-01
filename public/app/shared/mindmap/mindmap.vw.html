@@ -1,0 +1,15 @@
+<div id="mindmap" class="col-md-12 col-xs-12 mindmap-block">
+    <ul class="hidden">
+        <li ng-repeat="node in nodes"><a ng-href="{{node.url}}">{{node.label}}</a>
+
+            <ul ng-show="node.children.length != 0">
+                <li ng-repeat="children in node.children"><a ng-href="{{children.url}}">{{children.label}}</a>
+
+                    <ul ng-show="node.children.length != 0">
+                        <li ng-repeat="children in children.children"><a ng-href="{{children.url}}">{{children.label}}</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>

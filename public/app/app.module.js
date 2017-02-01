@@ -1,0 +1,1 @@
+angular.module('mindmapApp', ['ngRoute', 'ui.bootstrap', 'ngAnimate', 'door3.css', 'ng-breadcrumbs']);

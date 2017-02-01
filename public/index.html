@@ -1,0 +1,44 @@
+<!doctype html>
+<html ng-app="mindmapApp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mindmap</title>
+
+    <link href="assets/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Vendors -->
+    <script src="assets/bower_components/angular/angular.min.js"></script>
+    <script src="assets/bower_components/angular-route/angular-route.min.js"></script>
+    <script src="assets/bower_components/angular-animate/angular-animate.min.js"></script>
+    <script src="assets/bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+    <script src="assets/bower_components/angular-css/angular-css.min.js"></script>
+    <script src="assets/bower_components/ng-breadcrumbs/dist/ng-breadcrumbs.min.js"></script>
+    <script src="assets/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="assets/bower_components/jquery-ui/jquery-ui.min.js"></script>
+    <script src="assets/bower_components/raphael/raphael-min.js"></script>
+
+    <!-- Angular Dependencies -->
+    <script src="app/app.module.js"></script>
+    <script src="app/app.route.js"></script>
+    <script src="app/app.run.js"></script>
+    <script src="app/components/node/node.ctrl.js"></script>
+    <script src="app/components/pages/home/home.ctrl.js"></script>
+    <script src="app/shared/mindmap/mindmap.drv.js"></script>
+    <script src="app/shared/navblock/navblock.drv.js"></script>
+    <script src="app/shared/breadcrumb/breadcrumb.drv.js"></script>
+
+</head>
+<body >
+<div ng-controller="NodeCtrl" ng-cloak>
+
+    <ng-breadcrumb breadcrumbs="breadcrumbs"></ng-breadcrumb>
+
+    <ng-mindmap nodes="nodes"></ng-mindmap>
+
+    <ng-navblock></ng-navblock>
+
+</div>
+</body>
+</html>
